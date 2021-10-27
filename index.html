@@ -4,24 +4,28 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <title>STEPHEN VENTURES</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- google fonts new -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- google fnts new -->
-
     <!-- Favicons -->
     <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,100,200,300,500,600,800' rel='stylesheet' type='text/css'>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -29,37 +33,19 @@
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: FlexStart - v1.1.0
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-    <style>
-        .footer-textcolor {
-            color: #012970;
-        }
-    </style>
 
 </head>
 
 <body>
-
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top bg-white">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
             <a href="index.html" class="logo d-flex align-items-center">
-                <img src="./assets/images/SVLogo 1.png" alt="">
-
+                <img src="./assets/images/SVLogo 1.png" alt="logo">
             </a>
-
             <nav id="navbar" class="navbar">
                 <ul>
                     <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -71,20 +57,20 @@
                     <li><a href="blog.html">Blog</a></li> -->
                     <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li class="menu-text-blue"><a href="#">Our Founder</a></li>
-                            <l class="menu-text-blue" i>
-                                <a href="#">Group Companies</a>
-                    </li>
-                    <li class="menu-text-blue">
-                        <a href="#">Our Team</a>
-                    </li>
-                    </ul>
+                            <li class="menu-text-blue"><a href="#ourfounder">Our Founder</a></li>
+                            <li class="menu-text-blue">
+                                <a href="#groupcompanies">Group Companies</a>
+                            </li>
+                            <li class="menu-text-blue">
+                                <a href="#ourteam">Our Team</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li class="menu-text-blue"><a href="#">Healthcare </a></li>
-                            <li class="menu-text-blue"><a href="#">Education </a></li>
-                            <li class="menu-text-blue"><a href="#">Financial</a></li>
+                            <li class="menu-text-blue"><a href="#healthcare">Healthcare </a></li>
+                            <li class="menu-text-blue"><a href="#education">Education </a></li>
+                            <li class="menu-text-blue"><a href="#financial">Financial</a></li>
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
@@ -93,179 +79,170 @@
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->
-
         </div>
     </header>
     <!-- End Header -->
-
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center">
+    <section class="tab-content section1">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up" class="baner-header1">Bringing Ideas <br> to Life</h1>
+                    <h2 data-aos="fade-up" class="banner-header2" data-aos-delay="400">At Stephen Ventures, we are driven <br> by our passion to transform ideas into <br> successful businesses.</h2>
+                </div>
+            </div>
+        </div> -->
 
+
+        <div id="background" class="d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center">
+                        <h1 data-aos="fade-up" class="baner-header1 aos-init aos-animate">Bringing Ideas <br> to Life</h1>
+                        <h2 data-aos="fade-up" class="banner-header2 aos-init aos-animate" data-aos-delay="400">At Stephen Ventures, we are driven <br> by our passion to transform ideas into <br> successful businesses.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="banner d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">Bringing Ideas to Life</h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400">At Stephen Ventures, we are driven <br> by our passion to harness technology <br> to transform your ideas into <br> successful businesses.</h2>
-
-
+                    <h1 data-aos="fade-up" class="baner-header1">Bringing Ideas <br> to Life</h1>
+                    <h2 data-aos="fade-up" class="banner-header2" data-aos-delay="400">At Stephen Ventures, we are driven <br> by our passion to transform ideas into <br> successful businesses.</h2>
                 </div>
-                <!-- <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/hero-img.png" class="img-fluid" alt="">
-                </div> -->
             </div>
         </div>
-
-    </section>
+    </div> -->
     <!-- End Hero -->
-
     <main id="main">
         <!-- ======= About Section ======= -->
-        <section id="about" class="about stephen-story-bg">
-
+        <section id="ourfounder" class="about stephen-story-bg">
             <div class="container" data-aos="fade-up">
-                <div class="row gx-0">
-                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                <div class="row">
+                    <div class="col-lg-6 mt-1 align-items-center" data-aos="zoom-out" data-aos-delay="200">
                         <!-- <img src="assets/img/whyus.jpg" class="img-fluid" alt=""> -->
-                        <!-- <iframe width="650" height="370" src="https://www.youtube.com/watch?v=sizBesMspec">
-                        </iframe> -->
-
-                        <iframe width="650" height="370" src="https://www.youtube.com/watch?v=sizBesMspec">
-                        </iframe>
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/sizBesMspec" title="YouTube video player" frameborder="0" allow="" allowfullscreen></iframe>
                     </div>
-
-                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-6 justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
                             <!-- <h3>Who We Are</h3> -->
                             <h5 class="meetourfounder">MEET OUR FOUNDER</h5>
                             <h2 class="stephon-story"><b> The Stephen Ventures Story </b></h2>
-                            <p class="text-justify text-dark">
-                                Meet Jonah Stephen, the founder of Stephen Consulting and Ventures. Jonah founded Stephen Ventures in 2006 with the vision to transform ideas into businesses.
+                            <p class="text-justify text-p">
+                                Meet Jonah Stephen, the founder of Stephen Consulting and Ventures. Jonah founded Stephen Ventures in 2011 with the vision to transform ideas into businesses.
                             </p>
-                            <p class="text-justify text-dark">
-                                Jonah is passionate about technology and how it can empower businesses and people to hold a competitive edge in pursuit of successful outcomes.
+                            <p class="text-justify text-p">
+                                Stephen is passionate about technology and how it can empower businesses and people to hold a competitive edge in pursuit of successful outcomes.
                             </p>
-                            <p class="text-justify text-dark">
-                                SV’s subsidiary companies - Carisma Solutions and PurpleQuay, builds software solutions and products, and provides business advisory services to various organizatons across diverse industries including healthcare, education, technology and accounting.
+                            <p class="text-justify text-p">
+                                Jonah Stephen and Stephen Ventures group companies - Carisma Solutions and Purple Quay, builds software solutions and products, accounting solutions and automation and provides business advisory services to various organizations across diverse industries
+                                including healthcare, education, technology, and accounting.
                             </p>
-
-
-
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
-
         </section>
         <!-- End About Section -->
-
-
         <!-- ======= Recent Blog Posts Section ======= -->
-        <section id="recent-blog-posts" class="recent-blog-posts Groupcompanies">
+        <section id="groupcompanies" class="recent-blog-posts Groupcompanies">
             <div class="container aos-init aos-animate" data-aos="fade-up">
                 <header class="section-header">
                     <h4 class="heyond-horizons">GOING BEYOND HORIZONS</h4>
                     <h2 class="recent-posts">Our Group Companies</h2>
-                    <p class="text-white">Stephen Consulting and Ventures is a focused and progressive group, striving to add value to our clients with its products, services and innovative solutions. Our group of companies have proactively broadened horizons by focusing on
-                        sofware products and services, accounting and audit services, and business advisory servies.</p>
+                    <p class="text-white ourgroup-p">Stephen Consulting and Ventures is a focused and progressive group, striving to add value to our clients with its products, services, and innovative solutions. Our group of companies have proactively broadened horizons by focusing
+                        on software products and services, accounting and automation services, and business advisory services. </p>
                 </header>
-
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 card-mob-view">
                         <div class="card">
                             <img class="card-img-top" src="./assets/images/pq-ind.png" alt="Card image" style="width:100%">
                             <div class="card-body text-justify p-4 border-bottom-r bg-white">
-                                <h2 class="card-header1">Purplequay India</h2>
-                                <p class="card-text">A software development company that fosters proficient technology, software solutions and applications. Engages deep industry expertise and latest technology advancements to deliver custom-built solutions and products that
-                                    solves complex business challenges.</p>
-                                <a href="#" class="readmore stretched-link mt-auto">
+                                <h2 class="card-header1">Purple Quay Investments</h2>
+                                <p class="card-text height-bott">An investment company that aims to create wealth for its stake holders by investing in secondary markets. The co. is focussed in building long term portfolio of stocks in India and internationally. </p>
+                                <!-- <a href="#" class="readmore mt-auto">
                                     <span class="card-btn"><span class="mr-right">Learn more</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 card-mob-view">
                         <div class="card">
                             <img class="card-img-top" src="./assets/images/pq-aus.png" alt="Card image" style="width:100%">
                             <div class="card-body text-justify p-4 border-bottom-r bg-white">
-                                <h2 class="card-header1">Purplequay Australia</h2>
-                                <p class="card-text">A business advisory and accounting intelligence firm that enables businesses to build intrinsic expertise on funding, accounting & audit, direct taxation and planning, business strategy, statutory compliance, change management,
-                                    innovation and corporate governance.</p>
-                                <a href="#" class="readmore stretched-link mt-auto">
+                                <h2 class="card-header1">Purple Quay Global</h2>
+                                <p class="card-text">A software product, business advisory and accounting solutions company that is passionate about the success of business in India and Australia. Our products and solutions encompass Education, Healthcare and Financial Services
+                                    industry.
+                                </p>
+                                <!-- <a href="#" class="readmore mt-auto">
                                     <span class="card-btn"><span class="mr-right">Learn more</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 card-mob-view">
                         <div class="card">
                             <img class="card-img-top" src="./assets/images/carisma-solution.png" alt="Card image" style="width:100%">
                             <div class="card-body text-justify p-4 border-bottom-r bg-white">
-                                <h2 class="card-header1">Carisma Solutions</h2>
-                                <p class="card-text pb-4">A Knowledge Process Outsourcing (KPO) company that delivers comprehensive 360-degree accounting services as an extended team of client accounting firms in Australia & New Zealand.</p>
-                                <a href="#" class="readmore stretched-link mt-auto">
+                                <h2 class="card-header1">Carisma Solutions </h2>
+                                <p class="card-text height-bott">A Knowledge Process Outsourcing (KPO) company that delivers comprehensive 360-degree accounting services as an extended team of client accounting firms in Australia & New Zealand.</p>
+                                <a href="https://carisma-solutions.com.au/" target="_blank" class="mt-auto">
                                     <span class="card-btn"><span class="mr-right">Learn more</span> <i class="fa fa-chevron-circle-right"></i></span>
                                 </a>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
         <!-- End Recent Blog Posts Section -->
-
-
         <!-- DRIVEN BY INNOVATION START -->
-        <section id="recent-blog-posts" class="recent-blog-posts group-companies-bg">
+        <section class="recent-blog-posts group-companies-bg">
             <div class="container aos-init aos-animate" data-aos="fade-up">
-
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-xs-6 col-md-4 drive-mob-view1">
                         <h5 class="section3-header">DRIVEN BY INNOVATION</h5>
                         <h1 class="sectio3-header2"><b> Solutions that <br> simplify <br> your work </b></h1>
-                        <p class="text-white">At the heart of all our products and solutions is a strong idea that aims to solve compelling business challenges through our innovation-first approach.
+                        <p class="text-white solution-p">At the heart of all our products and solutions is a strong idea that aims to solve compelling business challenges through our innovation-first approach.
                         </p>
                     </div>
-                    <div class="col-md-8 text-center">
+                    <div class="col-sm-6 col-xs-6 col-md-8 text-center drive-mob-view">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-mob-view">
                                 <div class="card card-color remove-border p-4">
                                     <div class="col-md-12">
-                                        <img class="card-img-top w-50" src="./assets/images/hc.png" alt="Card image">
+                                        <img class="card-img-top w-50" src="./assets/images/hc1.png" alt="Card image">
                                     </div>
                                     <div class="card-body text-justify p-4">
                                         <h2 class="card-header1 text-center text-white">HEALTHCARE SOLUTIONS</h2>
-                                        <h6 class="text-orange text-center">LEARN MORE</h6>
+                                        <h6 class="text-center"><a href="#healthcare" class="text-orange"> LEARN MORE </a></h6>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-mob-view">
                                 <div class="card card-color remove-border p-4">
                                     <div class="col-md-12">
-                                        <img class="card-img-top w-50" src="./assets/images/edu.png" alt="Card image">
+                                        <img class="card-img-top w-50" src="./assets/images/edu1.png" alt="Card image">
                                     </div>
                                     <div class="card-body text-justify p-4">
                                         <h2 class="card-header1 text-center text-white">EDUCATION SOLUTIONS
                                         </h2>
-                                        <h6 class="text-orange text-center">LEARN MORE</h6>
+                                        <h6 class="text-center"><a href="#education" class="text-orange"> LEARN MORE</a></h6>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 card-mob-view">
                                 <div class="card card-color remove-border p-4">
                                     <div class="col-md-12">
-                                        <img class="card-img-top w-50" src="./assets/images/fin.png" alt="Card image">
+                                        <img class="card-img-top w-50" src="./assets/images/fin1.png" alt="Card image">
                                     </div>
                                     <div class="card-body text-justify p-4">
                                         <h2 class="card-header1 text-center text-white">FINANCIAL SOLUTIONS
                                         </h2>
-                                        <h6 class="text-orange text-center">LEARN MORE</h6>
+                                        <h6 class="text-orange text-center"><a href="#financial" class="text-orange"> LEARN MORE </a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -275,351 +252,374 @@
             </div>
         </section>
         <!-- DRIVEN BY INNOVATION END -->
-
         <!-- HEALTHCARE SOLUTIONS START -->
         <div class="bg-blue">
-            <div class="container aos-init aos-animate p-4 innovation-bg-color">
-                <div class="hchdr p-4">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h5 class="section3-header">DRIVEN BY INNOVATION</h5>
-                            <h2 class="recent-posts">Our Group Companies</h2>
-                            <p class="text-white">
-                                We are passionate in reaching out and improving the quality of human life by empowering Healthcare Providers and Medical Professionals with innovative digital products and purposeful solutions.
-                            </p>
-                            <p class="text-white">
-                                Our Learning and Assessment applications enables practicing medical professionals to stay abreast of advancements in their field and advance their skills and knowledge continuously.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card bg-white card-r">
-                            <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Non Communicable <br> Diseases SaaS (NCDSaaS)</h4>
-                            <div class="card-body">
-                                <p class="p-poppins-text">Helps identify health risks, educate, counsel and treat beneficiaries across educational institutions, villages, communities, and health care centers.</p>
-                                <p class="p-poppins-text"> It is a mass screening solution that helps healthcare providers rapidly screen people for non-communicable diseases(NCDs) in small groups or large communities.</p>
-                                <h5 class="card-text-header">KEY FEATURES</h5>
-                                <ul class="ul-p-l p-poppins-text">
-                                    <li>Intelligent screening, on-premise & online</li>
-                                    <li>Comprehensive medical camp screening management</li>
-                                    <li>Management dashboard for faster decisions</li>
-                                    <li>Seamless integration with devices & HIS</li>
-                                    <li>Instant intelligent reports with analytics</li>
-                                    <li>Access to latest NCD News & learning resources</li>
-                                    <li>Doctor appointment & consultation</li>
-                                    <li>Multi-lingual for wider reach</li>
-                                </ul>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <a href="#" class="readmore stretched-link mt-auto">
-                                            <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 img-right">
-                                        <img src="/assets/images/Group.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card bg-white card-r">
-                            <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Intelligent Hospital <br> Information Software (IHIS)</h4>
-                            <div class="card-body">
-                                <p class="p-poppins-text">An intelligent and integrated hospital information software suitable for small and medium sized Multi Specialty Hospitals.</p>
-                                <p class="p-poppins-text"> IHIS was developed using cloud technologies by world class healthcare professionals focusing extensively on application, data security, standards and privacy. </p>
-                                <h5 class="card-text-header">KEY FEATURES</h5>
-                                <ul class="ul-p-l p-poppins-text pb-4">
-                                    <li>Hospital administration</li>
-                                    <li>Hospital management</li>
-                                    <li>Reporting</li>
-                                    <li>Patient Registration</li>
-                                    <li>Appointments</li>
-                                    <li>Hospital Laboratory Integration</li>
-                                    <li>Pharmacy Integration</li>
-                                    <li>Optical Services</li>
-                                    <li>Hospital billing and more</li>
-                                </ul>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <a href="#" class="readmore stretched-link mt-auto">
-                                            <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 img-right">
-                                        <img src="/assets/images/Group.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card bg-white card-r">
-                            <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Learning and Assessment for <br> Healthcare Professionals</h4>
-                            <div class="card-body">
-                                <p class="p-poppins-text">Healthcare professionals continue to enhance their skills and knowledge with the advancement of health research and technology.</p>
-                                <p class="p-poppins-text"> Eduquay LMS enables healthcare professionals to organize courses and monitor learner progress with an engaging learning experience. </p>
-                                <h5 class="card-text-header">KEY FEATURES</h5>
-                                <ul class="ul-p-l p-poppins-text pb-4">
-                                    <li>Course Management</li>
-                                    <li>Dashboard</li>
-                                    <li>Study Kit</li>
-                                    <li>Mobile Learning</li>
-                                    <li>Online Assessment</li>
-                                    <li>Results & Certification</li>
-                                    <li>Data Analytics</li>
-                                    <li>Multilingual</li>
-                                    <li>3rd Party Integration</li>
-                                    <li>Customization</li>
-                                </ul>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <a href="#" class="readmore stretched-link mt-auto">
-                                            <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 img-right">
-                                        <img src="/assets/images/Group.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- driven by curiosity start -->
-                <div class="py-4 my-4">
-                    <div class="finhdr p-4">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h5 class="section3-header">EDUCATION SOLUTIONS</h5>
-                                <h2 class="recent-posts">Driven by Curiosity</h2>
-                                <p class="text-white">
-                                    We are passionate about revolutionizing the way education and training are delivered. We empower individuals and businesses to provide students and corporate learners with a captivating learning experience. We meet educational demands by automating the
-                                    complete student life cycle from Gate to Graduation.
+            <div class="container aos-init aos-animate p-4">
+                <section id="healthcare" class="section3">
+                    <div class="hchdr p-4 innovation-bg-color">
+                        <div class="row pb-4">
+                            <div class="col-md-6">
+                                <h5 class="section3-header">HEALTHCARE SOLUTIONS </h5>
+                                <h2 class="recent-posts">Driven by Purpose</h2>
+                                <p class="text-white solution-p">
+                                    We are passionate in reaching out and improving the quality of human life by empowering Healthcare Providers and Medical Professionals with innovative Hospital Information System, Non-Communicable Diseases screening products and purposeful solutions.
+                                </p>
+                                <p class="text-white solution-p">
+                                    Our Learning and Assessment applications enables practicing medical professionals to stay abreast of advancements in their field and advance their skills and knowledge continuously.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
+                    <div class="row mx-2 card-img-position">
+                        <div class="col-md-4 card-mob-view key-people-res">
                             <div class="card bg-white card-r">
-                                <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Eduquay ERP </h4>
+                                <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Non-Communicable Diseases SaaS (NCDSaaS) </h4>
                                 <div class="card-body">
-                                    <p class="p-poppins-text text-justify">Enables educational institutions to streamline and control their activities using smart and integrated solutions that help students, faculties and administrators use data in an organized manner.</p>
+                                    <p class="p-poppins-text">Helps identify health risks, educate, counsel, and treat beneficiaries across educational institutions, villages, communities, and health care centres.</p>
+                                    <p class="p-poppins-text"> It is a mass NCD screening solution that helps healthcare providers rapidly screen people for non-communicable diseases (NCDs) in small groups or large communities.</p>
                                     <h5 class="card-text-header">KEY FEATURES</h5>
-                                    <ul class="ul-p-l p-poppins-text">
-                                        <li>Admission</li>
-                                        <li>Front office</li>
-                                        <li>Exam</li>
-                                        <li>Virtual library</li>
-                                        <li>Transportation management</li>
-                                        <li>Hostel management</li>
-                                        <li>People connect</li>
-                                        <li>Reports</li>
+                                    <ul class="ul-p-l p-card-text pb-1">
+                                        <li>Intelligent screening, on-premises & online</li>
+                                        <li>Comprehensive medical camp screening management</li>
+                                        <li>Management dashboard for faster decisions</li>
+                                        <li>Seamless integration with devices & HIS</li>
+                                        <li>Instant intelligent reports with analytics</li>
+                                        <li>Access to latest NCD News & learning resources</li>
+                                        <li>Doctor appointment & consultation</li>
+                                        <li>Multi-lingual for wider reach</li>
                                     </ul>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <a href="#" class="readmore stretched-link mt-auto">
-                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6 img-right">
-                                            <img src="/assets/images/Vector.png" alt="">
-                                        </div>
+                                </div>
+                                <!-- <div class="card-footer bg-white card-r py-4">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                        <a href="#" class="">
+                                            <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                        <img src="/assets/images/Group.png" alt="">
                                     </div>
                                 </div>
+                            </div> -->
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 card-mob-view key-people-res">
                             <div class="card bg-white card-r">
-                                <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Eduquay LMS </h4>
+                                <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Intelligent Hospital Information Software (IHIS) </h4>
                                 <div class="card-body">
-                                    <p class="p-poppins-text text-justify">Facilitates education, training and professional development to reach wider audiences and impact more learners. and helps individuals and businesses create a robust learning experience with access to the latest e-learning
-                                        trends.
-                                    </p>
+                                    <p class="p-poppins-text">An intelligent and integrated hospital information software suitable for small and medium sized Multi Specialty Hospitals.</p>
+                                    <p class="p-poppins-text"> IHIS was developed using cloud technologies by world class healthcare professionals focusing extensively on application, data security, standards, and privacy. </p>
                                     <h5 class="card-text-header">KEY FEATURES</h5>
-                                    <ul class="ul-p-l p-poppins-text pb-4">
-                                        <li>Course management</li>
+                                    <ul class="ul-p-l p-card-text">
+                                        <li>Hospital administration</li>
+                                        <li>Hospital management</li>
+                                        <li>Reporting</li>
+                                        <li>Patient Registration</li>
+                                        <li>Appointments</li>
+                                        <li>Hospital Laboratory Integration</li>
+                                        <li>Pharmacy Integration</li>
+                                        <li>Optical Services</li>
+                                        <li>Hospital billing and more</li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="card-footer bg-white card-r py-4 card-footer-p1">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                        <a href="#" class="">
+                                            <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                        <img src="/assets/images/Group.png" alt="">
+                                    </div>
+                                </div>
+                            </div> -->
+                            </div>
+                        </div>
+                        <div class="col-md-4 card-mob-view key-people-res">
+                            <div class="card bg-white card-r">
+                                <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Learning and Assessment for Healthcare Professionals </h4>
+                                <div class="card-body">
+                                    <p class="p-poppins-text">Healthcare professionals continue to enhance their skills and knowledge with the advancement of health research and technology.</p>
+                                    <p class="p-poppins-text"> Eduquay LMS enables healthcare professionals to organize courses and monitor learner progress with an engaging learning experience. </p>
+                                    <h5 class="card-text-header">KEY FEATURES</h5>
+                                    <ul class="ul-p-l p-card-text">
+                                        <li>Course Management</li>
                                         <li>Dashboard</li>
-                                        <li>Study kit</li>
-                                        <li>Mobile learning</li>
-                                        <li>Online assessment & verification</li>
-                                        <li>Data analytics</li>
+                                        <li>Study Kit</li>
+                                        <li>Mobile Learning</li>
+                                        <li>Online Assessment</li>
+                                        <li>Results & Certification</li>
+                                        <li>Data Analytics</li>
                                         <li>Multilingual</li>
-                                        <li>3rd party integration</li>
+                                        <li>3rd Party Integration</li>
                                         <li>Customization</li>
                                     </ul>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <a href="#" class="readmore stretched-link mt-auto">
-                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6 img-right">
-                                            <img src="/assets/images/Vector.png" alt="">
-                                        </div>
+                                </div>
+                                <!-- <div class="card-footer bg-white card-r py-4 card-footer-p2">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                        <a href="#" class="">
+                                            <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                        <img src="/assets/images/Group.png" alt="">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card bg-white card-r">
-                                <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Eduquay Skill Development App</h4>
-                                <div class="card-body">
-                                    <p class="p-poppins-text text-justify">Creates an online learning community for greater initiation and promotion of skill development opportunities. It creates a 360-degree approach with focus on the key areas Technical and Job Skills, Behaviour, and Employability.</p>
-
-                                    <h5 class="card-text-header">KEY FEATURES</h5>
-                                    <ul class="ul-p-l p-poppins-text pb-4">
-                                        <li>Need the list of features to be provided</li>
-                                    </ul>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <a href="#" class="readmore stretched-link mt-auto">
-                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6 img-right">
-                                            <img src="/assets/images/Vector.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
+                            </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- driven by curiosity end-->
-
-
-                <!-- FINANCIAL SOLUTIONS start -->
-                <div class="py-4 my-4">
-                    <div class="healthcare-solution-bg p-4">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h5 class="section3-header">FINANCIAL SOLUTIONS</h5>
-                                <h2 class="recent-posts">Driven by Knowledge</h2>
-                                <p class="text-white">
-                                    We profess innovation in software to prepare clients and businesses envision and implement cutting edge solutions. We enable digital transformations for customers by modernizing and integrating their mainstream IT with Robotic Process Automation, IoT
-                                    and smart devices. Our technology services enables clients to transform their strategies and constantly adapt to the new dynamics of the tech industry.
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card bg-white card-r">
-                                <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Internal Knowledge Base </h4>
-                                <div class="card-body">
-                                    <p class="p-poppins-text">Enables teams to create a robust internal knowledge base making sure employees and customers have quick access to the information they need. It equips organizations with the right tools to build discussion forums, documentation,
-                                        guides, manuals, FAQs, and other types of knowledge bases.</p>
-                                    <h5 class="card-text-header">KEY FEATURES</h5>
-                                    <ul class="ul-p-l p-poppins-text">
-                                        <li>Need the list of features to be provided</li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer bg-white card-r py-4">
-                                    <div class="row">
-                                        <div class="col-md-6 mt-3">
-                                            <a href="#" class="">
-                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6 img-right">
-                                            <img src="/assets/images/Vector.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card bg-white card-r">
-                                <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Skill Matrix </h4>
-                                <div class="card-body">
-                                    <p class="p-poppins-text">Enables organizations quickly identify skilled employees by skills and competencies with ease to meet job, client or project requirements. Skill Matrix will perform an organizational-wide search to identify the top
-                                        talent to fill roles and compare proficiency.
+                </section>
+                <!-- driven by curiosity start -->
+                <section id="education" class="education-section">
+                    <div class="innovation-bg-color my-4">
+                        <div class="healthcare-solution-bg p-4">
+                            <div class="row pb-4">
+                                <div class="col-md-6">
+                                    <h5 class="section3-header">EDUCATION SOLUTIONS</h5>
+                                    <h2 class="recent-posts">Driven by Curiosity</h2>
+                                    <p class="text-white">
+                                        We are passionate about revolutionizing the way education and training are delivered. We empower individuals and businesses to provide students and corporate learners with a captivating learning experience. We meet educational demands by automating the
+                                        complete student life cycle from Gate to Graduation.
                                     </p>
-                                    <h5 class="card-text-header">KEY FEATURES</h5>
-                                    <ul class="ul-p-l p-poppins-text pb-4">
-                                        <li>Need the list of features to be provided</li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer bg-white card-r py-4">
-                                    <div class="row">
-                                        <div class="col-md-6 mt-3">
-                                            <a href="#" class="">
-                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6 img-right">
-                                            <img src="/assets/images/Vector.png" alt="">
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card bg-white card-r">
-                                <h4 class="card-title px-3 py-2 my-4 card-bg-ornage">Job Management</h4>
-                                <div class="card-body">
-                                    <p class="p-poppins-text">Enhances team collaboration across organizations creating focus and transparency. It allows teams to create, schedule and assign tasks, integrate timesheets and link jobs.</p>
-
-                                    <h5 class="card-text-header">KEY FEATURES</h5>
-                                    <ul class="ul-p-l p-poppins-text pb-4">
-                                        <li>Need the list of features to be provided</li>
-                                    </ul>
-                                </div>
-                                <div class="card-footer bg-white card-r py-4">
+                        <div class="row mx-2 card-img-position">
+                            <div class="col-md-4 card-mob-view key-people-res">
+                                <div class="card bg-white card-r">
+                                    <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Eduquay ERP </h4>
+                                    <div class="card-body">
+                                        <p class="p-card-text">Enables educational institutions to streamline and manage their activities using smart and integrated solutions that help students, faculty and the administrators use data in an organized manner and run the education
+                                            business efficiently. </p>
+                                        <h5 class="card-text-header">KEY FEATURES</h5>
+                                        <ul class="ul-p-l p-card-text">
+                                            <li>Admission</li>
+                                            <li>Front office</li>
+                                            <li>Exam</li>
+                                            <li>Virtual library</li>
+                                            <li>Transportation management</li>
+                                            <li>Hostel management</li>
+                                            <li>People connect</li>
+                                            <li>Reports</li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="card-footer bg-white card-r py-4 card-footer-p3">
                                     <div class="row">
-                                        <div class="col-md-6 mt-3">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
                                             <a href="#" class="">
                                                 <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
                                             </a>
                                         </div>
-                                        <div class="col-md-6 img-right">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
                                             <img src="/assets/images/Vector.png" alt="">
                                         </div>
                                     </div>
+                                </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 card-mob-view key-people-res">
+                                <div class="card bg-white card-r">
+                                    <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Eduquay LMS </h4>
+                                    <div class="card-body">
+                                        <p class="p-card-text">Facilitates education, training, and professional development to reach wider audiences and impact more learners. and helps individuals and businesses create a robust learning experience and outcomes with access
+                                            to the latest e-learning trends.
+                                        </p>
+                                        <h5 class="card-text-header">KEY FEATURES</h5>
+                                        <ul class="ul-p-l p-card-text pb-3">
+                                            <li>Course management</li>
+                                            <li>Dashboard</li>
+                                            <li>Study kit</li>
+                                            <li>Mobile learning</li>
+                                            <li>Online assessment & verification</li>
+                                            <li>Data analytics</li>
+                                            <li>Multilingual</li>
+                                            <li>3rd party integration</li>
+                                            <li>Customization</li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="card-footer bg-white card-r py-4">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                            <a href="#" class="">
+                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                            <img src="/assets/images/Vector.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 card-mob-view key-people-ress">
+                                <div class="card bg-white card-r">
+                                    <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Eduquay Exam Centre </h4>
+                                    <div class="card-body">
+                                        <p class="p-card-text">Enables institutions and enterprise conduct online examination and assessment tests efficiently. </p>
+                                        <h5 class="card-text-header">KEY FEATURES</h5>
+                                        <ul class="ul-p-l p-card-text pb-3">
+                                            <li>Interview Screening Tests </li>
+                                            <li>Online Examination </li>
+                                            <li>Employee Assessment </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="card-footer bg-white card-r py-4 card-footer-p4">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                            <a href="#" class="">
+                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                            <img src="/assets/images/Vector.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
+                <!-- driven by curiosity end-->
+                <!-- FINANCIAL SOLUTIONS start -->
+                <section id="financial" class="">
+                    <div class="innovation-bg-color my-4">
+                        <div class="finhdr p-4">
+                            <div class="row pb-4">
+                                <div class="col-md-6">
+                                    <h5 class="section3-header"> FINANCIAL SOLUTIONS</h5>
+                                    <h2 class="recent-posts">Driven by Knowledge</h2>
+                                    <p class="text-white solution-p">
+                                        We profess innovation in software to prepare clients and businesses envision and implement cutting edge solutions. We enable digital transformations for customers by modernizing and integrating their mainstream IT with Robotic Process Automation, IoT
+                                        and smart devices. Our technology services enables clients to transform their strategies and constantly adapt to the new dynamics of the tech industry.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mx-2 card-img-position">
+                            <div class="col-md-4 card-mob-view key-people-res">
+                                <div class="card bg-white card-r">
+                                    <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">LMS for Accounting Firms </h4>
+                                    <div class="card-body">
+                                        <p class="p-card-text">Knowledge is critical to the success of Accounting Firms. Our Accounting Firm LMS enables Accounting Firms to plan, train and develop, test and certify their staff at all levels and across all major areas of business.
+                                        </p>
+                                        <h5 class="card-text-header">KEY FEATURES</h5>
+                                        <ul class="ul-p-l p-card-text">
+                                            <li>Role Based Training</li>
+                                            <li>Training Plan and Calendar </li>
+                                            <li>Learning Dashboard </li>
+                                            <li>Online assessment & verification </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="card-footer bg-white card-r py-4">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                            <a href="#" class="">
+                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                            <img src="/assets/images/Vector.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 card-mob-view key-people-res">
+                                <div class="card bg-white card-r">
+                                    <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Mobile Tax App(White Label)</h4>
+                                    <div class="card-body">
+                                        <p class="p-card-text">Quick and easy way to do your tax return online. The app makes it simple to do your tax return, helps you maximise deductions and get the full tax refund. </p>
+                                        <p class="p-card-text">Collect your receipts and tax deductions throughout the year, which will help you boost your refund at tax time and help you manage your expenses. </p>
+                                        <h5 class="card-text-header">KEY FEATURES</h5>
+                                        <ul class="ul-p-l p-card-text">
+                                            <li>Take photos of your work-related tax receipts and store them in one convenient place. </li>
+                                            <li>Record a tax deduction or expense anytime to boost your tax refund.</li>
+                                            <li>Send a message, right from your phone.</li>
+                                            <li>Use our Tax Calculator to estimate your tax refund. </li>
+                                            <li>Complete your online tax return to ATO quickly</li>
+                                            <li>Know your return has been checked by qualified accountants and lodged well. </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="card-footer bg-white card-r py-4">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                            <a href="#" class="">
+                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                            <img src="/assets/images/Vector.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 card-mob-view key-people-res">
+                                <div class="card bg-white card-r">
+                                    <h4 class="card-title px-3 py-4 my-4 card-bg-ornage">Risk Profiler Assessment Tool </h4>
+                                    <div class="card-body">
+                                        <p class="p-card-text">The Risk Profile Assessment (RPA) is a tool that calculates the inherent risk of a project or programme based on the answers to a series of multi-choice questions. </p>
+                                        <h5 class="card-text-header">KEY FEATURES</h5>
+                                        <ul class="ul-p-l p-card-text">
+                                            <li>Estimating financial risk-taking capacity </li>
+                                            <li>Understanding the risk tolerance level of an individual. </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="card-footer bg-white card-r py-4">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 mt-3">
+                                            <a href="#" class="">
+                                                <span class="card-btn-orange"><span class="mr-right">Explore</span> <i class="fa fa-chevron-circle-right"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 col-6 img-right">
+                                            <img src="/assets/images/Vector.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <!-- FINANCIAL SOLUTIONS end-->
             </div>
         </div>
         <!-- HEALTHCARE SOLUTIONS END -->
-
-
         <!-- images start -->
-        <section id="about" class="about stephen-story-bg">
+        <section id="ourteam" class="about stephen-story-bg">
             <div class="container aos-init aos-animate" data-aos="fade-up">
                 <div class="row gx-0">
-                    <div class="col-md-6 d-flex flex-column justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-6 p-4 d-flex flex-column justify-content-center aos-init aos-animate key-people-res" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
                             <!-- <h3>Who We Are</h3> -->
-                            <h5 class="meetourfounder">EXCELLENCE THROUGH EXPERIENCE</h5>
-                            <h2 class="stephon-story"><b> Meet Our Team </b></h2>
+                            <!-- <h5 class="meetourfounder">EXCELLENCE THROUGH EXPERIENCE</h5> -->
+                            <!-- <h5 class="meetourfounder">KEY PEOPLE </h5> -->
+                            <h2 class="stephon-story"> KEY PEOPLE </b>
+                            </h2>
                             <p class="text-justify text-dark">
-                                Our team consists of highly experienced and energetic professionals with rich industry experience spanning decades.
+                                Our team consists of highly experienced professionals with rich industry experience spanning decades.
                             </p>
                             <p class="text-justify text-dark">
-                                Our strong busines acumen and management expertise is guided by our sound principles and strong values.
+                                Our strong business acumen and management expertise is guided by our sound principles and strong values.
                             </p>
                             <p class="text-justify text-dark">
                                 With an extensive, multidisciplinary knowledge base, and a team of diverse individuals, we work closely with our clients to deliver meaningful business outcomes.
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex align-items-center aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
+                    <div class="col-md-6  p-4  d-flex align-items-center aos-init aos-animate key-people-res" data-aos="zoom-out" data-aos-delay="200">
                         <div class="row">
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-4 text-center ">
                                 <img src="./assets/images/JonahStephen.png" alt="">
                                 <div class="my-2">
-                                    <h6 class="m-0 text-center">Jonah Stephen</h6>
+                                    <h6 class="m-0 text-center name-text">Jonah Stephen</h6>
                                     <p class="m-0 text-center">Director</p>
-                                    <a href="#" class="linkedin linkedin-color">
+                                    <a href="https://www.linkedin.com/in/jonahstephen/?originalSubdomain=in" target="_blank" class="linkedin linkedin-color">
                                         <i class="bi bi-linkedin bx bxl-linkedin"></i>
                                     </a>
                                 </div>
@@ -627,51 +627,21 @@
                             <div class="col-md-4 text-center">
                                 <img src="./assets/images/Ronita.png" alt="">
                                 <div class="my-3">
-                                    <h6 class="m-0 text-center">Ronita Jonah Stephen</h6>
+                                    <h6 class="m-0 text-center name-text">Ronita Jonah Stephen</h6>
                                     <p class="m-0 text-center text-center">Director</p>
-                                    <a href="#" class="linkedin linkedin-color">
+                                    <!-- <a href="#" class="linkedin linkedin-color">
                                         <i class="bi bi-linkedin bx bxl-linkedin"></i>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="./assets/images/Muthusubramanian.png" alt="">
                                 <div class="my-3">
-                                    <h6 class="m-0 text-center">Muthusubramanian</h6>
-                                    <p class="m-0 text-center">CFO & Advisor</p>
-                                    <a href="#" class="linkedin linkedin-color">
+                                    <h6 class="m-0 text-center name-text">Muthusubramanian</h6>
+                                    <p class="m-0 text-center">CFO &amp; Advisor</p>
+                                    <!-- <a href="#" class="linkedin linkedin-color">
                                         <i class="bi bi-linkedin bx bxl-linkedin"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <img src="./assets/images/Muthuswamy.png" alt="">
-                                <div class="my-3">
-                                    <h6 class="m-0 text-center">Muthuswamy SR</h6>
-                                    <p class="m-0 text-center">COO & Advisor</p>
-                                    <a href="#" class="linkedin linkedin-color">
-                                        <i class="bi bi-linkedin bx bxl-linkedin"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <img src="./assets/images/Badri.png" alt="">
-                                <div class="my-2">
-                                    <h6 class="m-0 text-center">Badri Narayan</h6>
-                                    <p class="m-0 text-center">Independent Director</p>
-                                    <a href="#" class="linkedin linkedin-color">
-                                        <i class="bi bi-linkedin bx bxl-linkedin"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <img src="./assets/images/Roshan.png" alt="">
-                                <div class="my-3">
-                                    <h6 class="m-0 text-center">Roshan Carvalho</h6>
-                                    <p class="m-0 text-center">Project Director</p>
-                                    <a href="#" class="linkedin linkedin-color">
-                                        <i class="bi bi-linkedin bx bxl-linkedin"></i>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -680,13 +650,13 @@
             </div>
         </section>
         <!-- images end -->
-
     </main>
     <!-- End #main -->
 
+
+
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-
         <!-- <div class="footer-newsletter">
             <div class="container">
                 <div class="row justify-content-center">
@@ -702,61 +672,110 @@
                 </div>
             </div>
         </div> -->
-
         <div class="footer-top" id="contact">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-lg-3 col-md-12 footer-info">
-                        <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/images/SVLogo 1.png" class="logo d-flex align-items-center" alt="">
-                        </a>
-                        <p class="text-white"> © Stephen Ventures 2021 <br> All rights reserved.</p>
+                    <div class="col-lg-2 col-md-12 footer-info px-4">
+
+                        <img src="assets/images/SVLogo 1.png" class="logo d-flex align-items-center footer-img" alt="logo">
+
+                        <p class="text-white footer-p"> © Stephen Ventures 2021 <br> All rights reserved.</p>
                     </div>
-                    <div class="col-lg-3 col-6 footer-links">
+                    <div class="col-lg-2 col-6 footer-links px-4">
                         <h4 class="footer-text-orange">Key links</h4>
                         <ul>
-                            <li> <a href="#" class="text-white">About Us</a></li>
-                            <li> <a href="#" class="text-white">Group Companies</a></li>
-                            <li> <a href="#" class="text-white">Healthcare Solutions</a></li>
-                            <li> <a href="#" class="text-white">Education Solutions</a></li>
-                            <li> <a href="#" class="text-white">Financial Solutions</a></li>
-                            <li> <a href="#" class="text-white">Our Team</a></li>
+                            <!-- <li class="footer-li-text"> <a href="#" class="text-white">About Us</a></li> -->
+                            <li class="footer-li-text"> <a href="#groupcompanies" class="text-white">Group Companies</a></li>
+                            <li class="footer-li-text"> <a href="#healthcare" class="text-white">Healthcare Solutions</a></li>
+                            <li class="footer-li-text"> <a href="#education" class="text-white">Education Solutions</a></li>
+                            <li class="footer-li-text"> <a href="#financial" class="text-white">Financial Solutions</a></li>
+                            <li class="footer-li-text"> <a href="#ourteam" class="text-white">Our Team</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-6 footer-links">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-6 footer-col footer-links px-4">
                         <h4 class="footer-text-orange">Contact Us</h4>
-                        <p class="text-white">We’d love to hear from you. <br> Leave us a message!</p>
+                        <p class="text-white footer-li-text">We’d love to hear from you. <br> Leave us a message!</p>
                         <form action="forms/contact.php" method="post" class="php-email-form">
-                            <div class="col-md-12 py-1">
-                                <label for="">Work email</label>
-                                <input type="text" name="name" class="form-control" placeholder="Email" required>
+                            <div class="form-group">
+                                <div class="col-sm-12 col-xs-12 col-md-12 py-1">
+                                    <label class="lblclass">Work email</label>
+                                    <input type="text" name="name" id="email" class="form-control" placeholder="Email" required="">
+                                </div>
                             </div>
-                            <div class="col-md-12 py-1">
-                                <label for="">Your message</label>
-                                <textarea class="form-control" name="message" rows="6" placeholder="Your message" required=""></textarea>
+                            <div class="form-group">
+                                <div class="col-sm-12 col-xs-12  col-md-12 py-1">
+                                    <label class="lblclass">Your message</label>
+                                    <textarea class="form-control" id="messagebody" name="message" rows="6" placeholder="Your message" required=""></textarea>
+                                </div>
                             </div>
-                            <div class="col-md-12 py-3">
-                                <a href="#" class="text-right">
+                            <div class="col-sm-12 col-xs-12  col-md-12 py-3">
+                                <!-- <a href="#" class="text-right">
                                     <span class="card-btn-orange">Send Message</span>
-                                </a>
+                                </a> -->
+                                <!-- <input class="card-btn-orange" type="button" value="Send Message" onclick="sendMail()" /> -->
+                                <input type="submit" class="card-btn-orange btn-send-massage" value="Send Message" onclick="sendMail()">
                             </div>
                         </form>
                     </div>
-                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start px-4">
                         <h4 class="footer-text-orange">Our Address</h4>
-                        <p class="text-white">
-                            <i class="bi bi-geo-alt text-white"></i> Stephen Ventures Buhari Towers, 4th Floor, No.4 Moores Road, Thousand Lights, Chennai, Tamil Nadu 600006 <br>
-                            <strong> <i class="bi bi-envelope"></i></strong> info@stephenventures.com<br>
-                            <strong class="text-white"><i class="bi bi-linkedin"></i> Connect </strong>on LinkedIn<br>
-                        </p>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <a href="https://goo.gl/maps/xp4JLXA5f7dHwQiA8" target="_blank">
+                                    <i class="bi bi-geo-alt text-white icon-size"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-10">
+                                <a href="https://goo.gl/maps/xp4JLXA5f7dHwQiA8" target="_blank">
+                                    <p class="text-white footer-p2">
+                                        Stephen Ventures Buhari Towers, 4th Floor, No.4 Moores Road, Thousand Lights, Chennai, Tamil Nadu 600006 <br>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <i class="bi bi-envelope text-white icon-size"></i>
+                            </div>
+                            <div class="col-md-10 pt-2">
+                                <a href="mailto:info@stephenventures.com" target="_blank">
+                                    <p class="footer-p3">info@stephenventures.com</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <a href="https://www.linkedin.com/company/stephen-ventures/" target="_blank"><i class="bi bi-linkedin text-white icon-size"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-10 pt-2">
+                                <span><p class="footer-p2 text-white">Connect on <a href="https://www.linkedin.com/company/stephen-ventures/" target="_blank" class="footer-p3"> LinkedIn </a></p>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- test massage start -->
+                        <!-- <div class="toast" style="background-color: #ffffff;color: #213f5d;" data-autohide="false">
+                            
+                            <div class="">
+                                <h4 style="background-color: #ffffff;color: #213f5d;">Massage Sent successfully</h4>
+                            </div>
+
+                        </div> -->
+
+                        <div class="toast" data-autohide="false">
+
+                            <div style="background-color: #eba929;color: #213f5d;" class="toast-body">
+                                <b><i class="fa fa-check-circle"></i> Message Sent Successfully</b>
+                            </div>
+                        </div>
+                        <!-- test massage end -->
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="container">
             <div class="copyright">
-                Copyright © 2021 Developed by <a href="https://purplequay.com/" class="footer-textcolor">Purplequay</a>
+                Copyright © 2021 Developed by <a href="https://purplequay.com.au/" target="_blank" class="footer-textcolor">Purplequay</a>
             </div>
             <!-- <div class="credits">
                 All the links in the footer should remain intact. You can delete the links only if you purchased the pro version. Licensing information: https://bootstrapmade.com/license/ Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
@@ -765,10 +784,46 @@
         </div>
     </footer>
     <!-- End Footer -->
-
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
     <!-- Vendor JS Files -->
+    <script>
+        function sendMail() {
+            let message1 = document.getElementById("messagebody").value;
+            let dynEmail = document.getElementById('email').value;
+
+            if (message1.length > 0 && dynEmail.length > 0) {
+                Email.send({
+                        Host: "smtpout.secureserver.net",
+                        Username: "info@stephenventures.com",
+                        Password: "Icon674#",
+                        To: 'info@stephenventures.com',
+                        From: dynEmail,
+                        Subject: "Test",
+                        Body: message1,
+                    })
+                    .then(function(message) {
+                            // alert("mail sent successfully");
+
+
+
+
+                            document.getElementById("messagebody").value = "";
+                            document.getElementById('email').value = "";
+                        },
+                        $(document).ready(function() {
+                            $('.toast').toast('show');
+                        }));
+            }
+        }
+    </script>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
@@ -777,11 +832,6 @@
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
-
-</html>
